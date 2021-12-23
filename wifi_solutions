@@ -1,0 +1,12 @@
+[+] 
+    sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+    Change the value from 3 to 2 in he above file to change the wifi power management off
+
+[+] 
+     sudo apt remove backport-iwlwifi-dkms : known bug
+
+[+] 
+    sudo nano /etc/gai.conf
+    Look for line with precedence ::ffff:0:0/96  100 and delete the # and restart the system
+
+
