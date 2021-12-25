@@ -13,6 +13,7 @@ bash Anaconda3-2019.03-Linux-x86_64.sh
 # Activate the installation
 
 source ~/.bashrc
+# source ~/.zshrc if the above command fails
 
 
 #Test the installation
